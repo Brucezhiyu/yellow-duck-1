@@ -1,0 +1,11 @@
+10
+70C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src\main.js132925986723178570 0
+63C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist132927834188302500 1
+62C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src132925986723178570 1
+73C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src\index.html132927772724207085 0
+72C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src\style.css132927834254533596 0
+82C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.2cdaf7bc.css132927834188273001 0
+86C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.2cdaf7bc.css.map132927834188282564 0
+85C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.de158e3a.js.map132926671443163038 0
+81C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.de158e3a.js132926671443163038 0
+74C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.html132927772725155307 0
