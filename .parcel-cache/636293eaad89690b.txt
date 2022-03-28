@@ -1,11 +1,16 @@
-10
+15
 70C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src\main.js132925986723178570 0
-63C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist132927834188302500 1
-62C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src132925986723178570 1
+63C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist132929259715653320 1
+62C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src132929148029066843 1
+70C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src\text.js132929246657510397 0
 73C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src\index.html132927772724207085 0
-72C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src\style.css132927834254533596 0
-82C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.2cdaf7bc.css132927834188273001 0
-86C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.2cdaf7bc.css.map132927834188282564 0
-85C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.de158e3a.js.map132926671443163038 0
+73C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\text.html132929230144471366 0
+72C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src\style.css132929227319497195 0
+72C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\src\text.html132929230143583743 0
+82C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.2cdaf7bc.css132929259715563214 0
+86C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.2cdaf7bc.css.map132929259715603136 0
 81C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.de158e3a.js132926671443163038 0
+85C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.de158e3a.js.map132926671443163038 0
 74C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\index.html132927772725155307 0
+80C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\text.50aa8678.js132929246658378674 0
+84C:\Users\Lenovo\Desktop\github--------------\yellow-duck-1\dist\text.50aa8678.js.map132929246658378674 0

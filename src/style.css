@@ -8,24 +8,35 @@
   box-sizing: border-box;
 }
 body {
-  overflow: hidden; /* Hide scrollbars */
+  overflow: hidden;
 }
 .water {
   background: #1d9fd1;
 
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   z-index: 0;
 }
 .duck {
 }
+.middle {
+  position: absolute;
+  border: 1px solid black;
+  width: 1px;
+  height: 300px;
+  top: 50;
+  left: 50%;
+  margin-top: 100px;
+  z-index: 20;
+}
+
 .duck .body {
   position: absolute;
-  width: 58vh;
-  height: 36vh;
+  width: 414px;
+  height: 257px;
   left: 50%;
-  margin-left: -29vh;
-  margin-top: 40vh;
+  margin-left: -206px;
+  margin-top: 286px;
   z-index: 5;
   background: #feef9e;
 
@@ -33,11 +44,11 @@ body {
 }
 .duck .body-shadow {
   position: absolute;
-  width: 54vh;
-  height: 32vh;
+  width: 385px;
+  height: 228px;
   left: 50%;
-  margin-left: -27vh;
-  margin-top: 2vh;
+  margin-left: -191px;
+  margin-top: 14px;
   z-index: 6;
   background: #fce481;
 
@@ -47,11 +58,11 @@ body {
   content: "";
   display: block;
   position: absolute;
-  width: 52vh;
-  height: 30vh;
+  width: 371px;
+  height: 214px;
   left: 50%;
-  margin-left: -30vh;
-  margin-top: -3vh;
+  margin-left: -213px;
+  margin-top: -22px;
   z-index: 6;
   background: #feef9e;
 
@@ -59,11 +70,11 @@ body {
 }
 .duck .head {
   position: absolute;
-  width: 34vh;
-  height: 30vh;
+  width: 242px;
+  height: 214px;
   left: 50%;
-  margin-left: -17vh;
-  margin-top: 18vh;
+  margin-left: -121px;
+  margin-top: 129px;
   z-index: 9;
   background: #feef9e;
 
@@ -74,11 +85,11 @@ body {
 }
 .duck .head .face-shadow {
   position: absolute;
-  width: 30vh;
-  height: 26vh;
+  width: 214px;
+  height: 185px;
   left: 50%;
-  margin-left: -14vh;
-  margin-top: 4vh;
+  margin-left: -103px;
+  margin-top: 28px;
   z-index: 10;
   background: #fce481;
 
@@ -91,11 +102,11 @@ body {
   content: "";
   display: block;
   position: absolute;
-  width: 30vh;
-  height: 26vh;
+  width: 214px;
+  height: 185px;
   left: 50%;
-  margin-left: -17vh;
-  margin-top: -2vh;
+  margin-left: -125px;
+  margin-top: -14px;
   z-index: 11;
   background: #feef9e;
 
@@ -106,35 +117,35 @@ body {
 }
 .duck .head .hair1 {
   position: absolute;
-  width: 10vh;
-  height: 10vh;
+  width: 95px;
+  height: 95px;
   left: 50%;
   border-radius: 100% 0;
   z-index: 9;
   transform: rotate(-25deg);
-  margin-left: -3vh;
-  margin-top: -6vh;
+  margin-left: -22px;
+  margin-top: -42px;
   background: #feef9e;
 }
 .duck .head .hair2 {
   position: absolute;
-  width: 10vh;
-  height: 10vh;
+  width: 95px;
+  height: 95px;
   left: 50%;
   border-radius: 100% 0;
   z-index: 8;
   transform: rotate(25deg);
-  margin-left: 2vh;
-  margin-top: -5vh;
+  margin-left: 14px;
+  margin-top: -35px;
   background: #fce481;
 }
 .duck .head .eye1 {
   position: absolute;
   left: 50%;
-  width: 2.5vh;
-  height: 2.5vh;
-  margin-top: 16vh;
-  margin-left: 5vh;
+  width: 18px;
+  height: 18px;
+  margin-top: 114px;
+  margin-left: 35px;
   z-index: 12;
   background: #005a79;
   border-radius: 50%;
@@ -142,10 +153,10 @@ body {
 .duck .head .eye2 {
   position: absolute;
   left: 50%;
-  width: 2.5vh;
-  height: 2.5vh;
-  margin-top: 16vh;
-  margin-left: -8vh;
+  width: 18px;
+  height: 18px;
+  margin-top: 114px;
+  margin-left: -56px;
   z-index: 12;
   background: #005a79;
   border-radius: 50%;
@@ -178,46 +189,46 @@ body {
 }
 .duck .wing1 {
   position: absolute;
-  width: 20vh;
-  height: 20vh;
+  width: 143px;
+  height: 143px;
   left: 50%;
-  margin-top: 40vh;
-  margin-left: -32vh;
+  margin-top: 290px;
+  margin-left: -227px;
   z-index: 6;
   background: #feef9e;
   border-radius: 100% 0 0 10%;
 }
 .duck .wing2 {
   position: absolute;
-  width: 20vh;
-  height: 20vh;
+  width: 143px;
+  height: 143px;
   left: 50%;
-  margin-top: 40vh;
-  margin-left: 12vh;
+  margin-top: 290px;
+  margin-left: 85px;
   z-index: 6;
   background: #feef9e;
   border-radius: 0 100% 10% 0;
 }
 .duck .foot1 {
   position: absolute;
-  width: 13vh;
-  height: 13vh;
+  width: 113px;
+  height: 113px;
   background: #fdb813;
   left: 50%;
-  margin-top: 69vh;
-  margin-left: 10vh;
+  margin-top: 490px;
+  margin-left: 71px;
   z-index: -1;
   border-radius: 100% 100% 20% 20%;
   transform: rotate(15deg);
 }
 .duck .foot2 {
   position: absolute;
-  width: 13vh;
-  height: 13vh;
+  width: 113px;
+  height: 113px;
   background: #fdb813;
   left: 50%;
-  margin-top: 69vh;
-  margin-left: -20vh;
+  margin-top: 490px;
+  margin-left: -142px;
   z-index: -1;
   border-radius: 100% 100% 20% 20%;
   transform: rotate(-15deg);
@@ -225,12 +236,12 @@ body {
 .wave {
   display: block;
   position: absolute;
-  width: 75vh;
-  height: 30vh;
+  width: 535px;
+  height: 214px;
   left: 50%;
   z-index: 15;
-  margin-top: 61vh;
-  margin-left: -39vh;
+  margin-top: 470px;
+  margin-left: -277px;
   background: #1d9fd1;
   opacity: 0.5;
 }
@@ -238,11 +249,12 @@ body {
   content: "";
   display: block;
   position: absolute;
-  width: 78vh;
-  height: 29vh;
+  border: 1px solid red;
+  width: 556px;
+  height: 292px;
   z-index: 15;
-  margin-top: -29vh;
-  margin-left: 0vh;
+  margin-top: -293px;
+  margin-left: 0px;
   border-color: #1d9fd1;
   border-radius: 100%;
   border-style: solid;
