@@ -19,18 +19,9 @@ body {
   z-index: 0;
 }
 .duck {
-  transform: translateY();
+  transform:scale(0.5);
 }
-.middle {
-  position: absolute;
-  border: 1px solid black;
-  width: 1px;
-  height: 300px;
-  top: 50;
-  left: 50%;
-  margin-top: 100px;
-  z-index: 20;
-}
+
 
 .duck .body {
   position: absolute;
@@ -76,7 +67,7 @@ body {
   height: 214px;
   left: 50%;
   margin-left: -121px;
-  margin-top: 129px;
+  margin-top: 160px;
   z-index: 9;
   background: #feef9e;
 
@@ -151,6 +142,7 @@ body {
   z-index: 12;
   background: #005a79;
   border-radius: 50%;
+  animation: infinite blink 6000ms ease;
 }
 .duck .head .eye2 {
   position: absolute;
@@ -162,6 +154,7 @@ body {
   z-index: 12;
   background: #005a79;
   border-radius: 50%;
+  animation: infinite blink 6000ms ease;
 }
 .duck .head .mouth {
   position: absolute;
@@ -292,12 +285,7 @@ body {
     transform: scaleY(0);
   }
 }
-.eye1 {
-  animation: infinite blink 6000ms ease;
-}
-.eye2 {
-  animation: infinite blink 6000ms ease;
-}
+
 @keyframes paddle-left {
   25% {
     transform: rotateX(-45deg) rotateZ(0deg);
@@ -308,7 +296,6 @@ body {
 }
 .foot1 {
   animation: infinite paddle-left 4000ms linear;
-  animation-delay: 1000ms;
   transform-origin: top right;
 }
 @keyframes paddle-right {
@@ -321,6 +308,7 @@ body {
 }
 .foot2 {
   animation: infinite paddle-right 4000ms linear;
+  animation-delay: 1000ms;
   transform-origin: top left;
 }
 @keyframes wave-head {
